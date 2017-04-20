@@ -4,9 +4,9 @@
 }
 
 #wrapper{
-    background-color: silver;
-    width: 1080px;
+    width: 1100px;
     margin: auto;
+    font-family: Verdana, Sans-serif, serif;
 }
 
 #topbar{
@@ -23,32 +23,39 @@
 #topright{
     vertical-align: top;
     display: inline-block;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 #texttopright{
-    padding-top: 28px;
+    padding-top: 45px;
     display: inline-block;
 }
 
+#list{
+    background: linear-gradient(#eef2f5, #d5dfe3, #eef2f5);
+    border: 1px solid #bdbfbf;
+    color: #79767f;
+    font-size: 8pt;
+}
+
 p{
-    font-size: 10pt;
+    font-size: 8pt;
 }
 
 ul{
-    margin-left: 50px;
+    margin-left: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 ul li{
-    margin-right: 30px;
+    margin-right: 50px;
     display: inline;
 }
 
 #container{
     padding: 20px;
-    background-color: black;
+    background: linear-gradient(to right, #020202, #393837, #020202);
 }
 
 #imgleft{
@@ -62,7 +69,7 @@ ul li{
     display: inline-block;
     width: 550px;
     height: 330px;
-    background-color: #515150;
+    background: linear-gradient(90deg, #737371, #383838);
 }
 
 #aboutRightText{
@@ -72,9 +79,15 @@ ul li{
 }
 
 h2{
+    font-size: 10pt;
     background-color: #ffcd15;
     margin-bottom: 10px;
     padding: 7px;
+}
+
+#heritage{
+    font-size: 12pt;
+    padding-top: 5px;
 }
 
 #imgleft img{
@@ -91,16 +104,18 @@ h2{
 #midtext{
     display: inline;
     color: #ffcd15;
+    font-size: 9pt;
+    color: #7e814b;
 }
 
 #bottombar{
-    background-color: black;
     padding-top: 20px;
 }
 
 #bottombar h3{
     display: inline;
     width: 235px;
+    font-size: 8pt;
 }
 
 #lastbox{
@@ -109,7 +124,6 @@ h2{
 
 .box{
     display: inline-block;
-    /*background-color: #ffcd15;*/
     background-color: white;
     margin-right: 29px;
     vertical-align: top;
@@ -128,6 +142,7 @@ h2{
     width: 215px;
     height: 80px;
     padding: 10px;
+    font-size: 8pt;
 }
 
 .headerbox{
